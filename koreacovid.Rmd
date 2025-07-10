@@ -68,11 +68,18 @@ colPerc(table1)
 
 When looking at the numbers 64 out of 100 males are dead and 36 out of 100 females are dead. There are more males dead than females.
 
+## Inferential results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Based off the statistics covid is killing more males than females.
 
 ## Conclusions
-
-
-## Inferential results 
+ 
 
 
 
