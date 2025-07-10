@@ -57,7 +57,19 @@ When you look at the chart percentage wise males are dying more. About 65% of th
 
 
   
+
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+When looking at the numbers 64 out of 100 males are dead and 36 out of 100 females are dead. There are more males dead than females.
+
+
+## Conclusions
 
 
 ## Inferential results 
@@ -65,5 +77,9 @@ When you look at the chart percentage wise males are dying more. About 65% of th
 
 
 
-## Conclusions
 
+
+
+
+
+## Conclusions
